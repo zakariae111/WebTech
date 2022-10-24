@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(254, 231, 202);
+}
+
+/* using float  */
+
+/* .nav_bar{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* height: 50px; 
+    padding: 15px;
+    float: left;
+    width: fit-content;
+}
+
+.nav_bar div{
+    float: left;
+    margin: 2px 5px;
+}
+ 
+.nav_bar .element3{
+    clear: left;
+} 
+
+.nav_bar div a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgb(1, 55, 96);
+    font-weight: bold;
+    padding: 18px 15px;
+    /* padding 
+}
+
+.nav_bar div a:hover{
+    color: rgb(2, 126, 220);
+    background-color: rgb(252, 156, 30);
+    
+} */
+
+/* here using flexbox */
+.nav_bar{
+    display: flex;
+    background-color: rgb(0, 195, 254);
+}
+
+.nav_bar div {
+    padding: 10px 2px;
+}
+.nav_bar div a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    margin:25px 0px;
+    padding:10.4px 4px;
+    color: white;
+}
+.nav_bar div a:hover{
+    background-color: rgb(53, 53, 200);
+}

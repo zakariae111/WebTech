@@ -1,0 +1,14 @@
+.grid_container{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid_item{
+    border: 1px solid black;
+}
+
+.first{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}

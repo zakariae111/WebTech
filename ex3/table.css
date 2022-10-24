@@ -1,0 +1,21 @@
+.table_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* padding: 5px; */
+    background-color: rgb(248, 110, 31);
+}
+
+.table_item{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.head{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(196, 196, 196);
+    background-color: blueviolet;
+}
